@@ -9,7 +9,7 @@ struct ThemePickerView: View {
 
     // MARK: - Property Wrappers
 
-    @Binding var selectedTheme: ThemeDefinition
+    @Binding var selectedTheme: ThemePickerModel
 
     @Namespace var animation
 
@@ -41,7 +41,7 @@ struct ThemePickerView: View {
                 .padding(.top, 25)
 
             HStack(spacing: 0) {
-                ForEach(ThemeDefinition.allCases, id: \.hashValue) { theme in
+                ForEach(ThemePickerModel.allCases, id: \.hashValue) { theme in
                     Text(theme.rawValue)
                         .padding(.vertical)
                         .frame(width: 100)

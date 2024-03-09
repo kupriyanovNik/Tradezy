@@ -1,11 +1,11 @@
 //
-//  ThemeDefinition.swift
+//  ThemePickerModel.swift
 //  Tradezy
 //
 
 import SwiftUI
 
-enum ThemeDefinition: String, CaseIterable {
+enum ThemePickerModel: String, CaseIterable {
     case system = "Системная"
     case light = "Светлая"
     case dark = "Темная"

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B709C63D2B9CE33000D72862 /* ThemeDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709C63C2B9CE33000D72862 /* ThemeDefinition.swift */; };
+		B709C63D2B9CE33000D72862 /* ThemePickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709C63C2B9CE33000D72862 /* ThemePickerModel.swift */; };
 		B709C6402B9CE3D400D72862 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709C63F2B9CE3D400D72862 /* ThemePickerView.swift */; };
 		B73D03DB2B9CC1080015977B /* TradezyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03DA2B9CC1080015977B /* TradezyApp.swift */; };
 		B73D03DF2B9CC1090015977B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73D03DE2B9CC1090015977B /* Assets.xcassets */; };
@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B709C63C2B9CE33000D72862 /* ThemeDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDefinition.swift; sourceTree = "<group>"; };
+		B709C63C2B9CE33000D72862 /* ThemePickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerModel.swift; sourceTree = "<group>"; };
 		B709C63F2B9CE3D400D72862 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
 		B73D03D72B9CC1080015977B /* Tradezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73D03DA2B9CC1080015977B /* TradezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradezyApp.swift; sourceTree = "<group>"; };
@@ -51,13 +51,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B709C63B2B9CE31700D72862 /* Theme */ = {
+		B709C63B2B9CE31700D72862 /* ThemePicker */ = {
 			isa = PBXGroup;
 			children = (
-				B709C63C2B9CE33000D72862 /* ThemeDefinition.swift */,
+				B709C63C2B9CE33000D72862 /* ThemePickerModel.swift */,
 				B709C63F2B9CE3D400D72862 /* ThemePickerView.swift */,
 			);
-			path = Theme;
+			path = ThemePicker;
 			sourceTree = "<group>";
 		};
 		B73D03CE2B9CC1080015977B = {
@@ -129,7 +129,6 @@
 		B73D03EC2B9CC4210015977B /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B709C63B2B9CE31700D72862 /* Theme */,
 				B73D03F02B9CC5270015977B /* Modules */,
 			);
 			path = Presentation;
@@ -138,6 +137,7 @@
 		B73D03F02B9CC5270015977B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B709C63B2B9CE31700D72862 /* ThemePicker */,
 				B73D03FD2B9CC6900015977B /* Navigation */,
 				B73D03F12B9CC52D0015977B /* Home */,
 			);
@@ -263,7 +263,7 @@
 				B73D03DB2B9CC1080015977B /* TradezyApp.swift in Sources */,
 				B73D03F32B9CC5330015977B /* HomeView.swift in Sources */,
 				B73D04052B9CC6DC0015977B /* NavigationDestinationType.swift in Sources */,
-				B709C63D2B9CE33000D72862 /* ThemeDefinition.swift in Sources */,
+				B709C63D2B9CE33000D72862 /* ThemePickerModel.swift in Sources */,
 				B709C6402B9CE3D400D72862 /* ThemePickerView.swift in Sources */,
 				B73D03FC2B9CC6420015977B /* Color+Ext.swift in Sources */,
 			);

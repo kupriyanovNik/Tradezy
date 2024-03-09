@@ -14,7 +14,7 @@ struct HomeView: View {
     @ObservedObject var navigationManager: NavigationManager
 
     @State private var showThemePicker: Bool = false 
-    @AppStorage("selectedTheme") var selectedTheme: ThemeDefinition = .system
+    @AppStorage("selectedTheme") var selectedTheme: ThemePickerModel = .system
 
     // MARK: - Body
 
