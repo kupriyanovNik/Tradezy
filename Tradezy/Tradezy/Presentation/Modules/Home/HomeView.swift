@@ -6,7 +6,11 @@
 import SwiftUI
 
 struct HomeView: View {
-    
+
+    // MARK: - Property Wrappers
+
+    @ObservedObject var navigationManager: NavigationManager
+
     // MARK: - Body
 
     var body: some View {
@@ -17,5 +21,7 @@ struct HomeView: View {
 // MARK: - Preview 
 
 #Preview {
-    HomeView()
+    HomeView(
+        navigationManager: .init()
+    )
 }
