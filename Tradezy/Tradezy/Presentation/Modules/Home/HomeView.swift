@@ -35,9 +35,12 @@ struct HomeView: View {
         }
         .preferredColorScheme(selectedTheme.colorScheme)
         .sheet(isPresented: $showThemePicker) {
-            ThemePickerView(colorScheme: colorScheme)
-                .presentationDetents([.height(400)])
-                .presentationBackground(.clear)
+            ThemePickerView(
+                selectedTheme: $selectedTheme,
+                colorScheme: colorScheme
+            )
+            .presentationDetents([.height(400)])
+            .presentationBackground(.clear)
         }
     }
 }

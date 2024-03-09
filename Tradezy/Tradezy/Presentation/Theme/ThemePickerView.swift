@@ -9,8 +9,9 @@ struct ThemePickerView: View {
 
     // MARK: - Property Wrappers
 
-    @AppStorage("selectedTheme") var selectedTheme: ThemeDefinition = .system
     @Namespace var animation
+
+    @Binding var selectedTheme: ThemeDefinition
 
     // MARK: - Internal Properties
 
@@ -67,6 +68,7 @@ struct ThemePickerView: View {
 
 #Preview {
     ThemePickerView(
+        selectedTheme: .constant(.system),
         colorScheme: .light
     )
 }
