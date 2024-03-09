@@ -15,7 +15,7 @@ struct HomeView: View {
 
     var body: some View {
         Button {
-            navigationManager.navPath.append(.newScreen)
+            navigationManager.presentNext(.newScreen)
         } label: {
             Text("Push")
         }
