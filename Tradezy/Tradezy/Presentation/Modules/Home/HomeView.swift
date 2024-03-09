@@ -9,9 +9,12 @@ struct HomeView: View {
 
     // MARK: - Property Wrappers
 
+    @Environment(\.colorScheme) var colorScheme
+
     @ObservedObject var navigationManager: NavigationManager
 
     @State private var showThemePicker: Bool = false 
+    @AppStorage("selectedTheme") var selectedTheme: ThemeDefinition = .system
 
     // MARK: - Body
 
@@ -30,8 +33,9 @@ struct HomeView: View {
                 }
             }
         }
+        .preferredColorScheme(selectedTheme.colorScheme)
         .sheet(isPresented: $showThemePicker) {
-            ThemePickerView()
+            ThemePickerView(colorScheme: colorScheme)
                 .presentationDetents([.height(400)])
                 .presentationBackground(.clear)
         }

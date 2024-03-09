@@ -9,9 +9,12 @@ struct ThemePickerView: View {
 
     // MARK: - Property Wrappers
 
-    @Environment(\.colorScheme) var colorScheme
     @AppStorage("selectedTheme") var selectedTheme: ThemeDefinition = .system
     @Namespace var animation
+
+    // MARK: - Internal Properties
+
+    var colorScheme: ColorScheme
 
     // MARK: - Body
 
@@ -56,11 +59,14 @@ struct ThemePickerView: View {
         .background(.themeBG)
         .clipShape(.rect(cornerRadius: 30))
         .padding(.horizontal)
+        .environment(\.colorScheme, colorScheme)
     }
 }
 
 // MARK: - Preview
 
 #Preview {
-    ThemePickerView()
+    ThemePickerView(
+        colorScheme: .light
+    )
 }
