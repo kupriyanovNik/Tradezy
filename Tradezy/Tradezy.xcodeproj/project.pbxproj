@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B709C63D2B9CE33000D72862 /* ThemeDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709C63C2B9CE33000D72862 /* ThemeDefinition.swift */; };
-		B709C6402B9CE3D400D72862 /* ThemeChangerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709C63F2B9CE3D400D72862 /* ThemeChangerView.swift */; };
+		B709C6402B9CE3D400D72862 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B709C63F2B9CE3D400D72862 /* ThemePickerView.swift */; };
 		B73D03DB2B9CC1080015977B /* TradezyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03DA2B9CC1080015977B /* TradezyApp.swift */; };
 		B73D03DF2B9CC1090015977B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73D03DE2B9CC1090015977B /* Assets.xcassets */; };
 		B73D03E32B9CC1090015977B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73D03E22B9CC1090015977B /* Preview Assets.xcassets */; };
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		B709C63C2B9CE33000D72862 /* ThemeDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDefinition.swift; sourceTree = "<group>"; };
-		B709C63F2B9CE3D400D72862 /* ThemeChangerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangerView.swift; sourceTree = "<group>"; };
+		B709C63F2B9CE3D400D72862 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
 		B73D03D72B9CC1080015977B /* Tradezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73D03DA2B9CC1080015977B /* TradezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradezyApp.swift; sourceTree = "<group>"; };
 		B73D03DE2B9CC1090015977B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B709C63C2B9CE33000D72862 /* ThemeDefinition.swift */,
-				B709C63F2B9CE3D400D72862 /* ThemeChangerView.swift */,
+				B709C63F2B9CE3D400D72862 /* ThemePickerView.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 				B73D03F32B9CC5330015977B /* HomeView.swift in Sources */,
 				B73D04052B9CC6DC0015977B /* NavigationDestinationType.swift in Sources */,
 				B709C63D2B9CE33000D72862 /* ThemeDefinition.swift in Sources */,
-				B709C6402B9CE3D400D72862 /* ThemeChangerView.swift in Sources */,
+				B709C6402B9CE3D400D72862 /* ThemePickerView.swift in Sources */,
 				B73D03FC2B9CC6420015977B /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

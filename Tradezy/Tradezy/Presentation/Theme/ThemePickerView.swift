@@ -1,11 +1,11 @@
 //
-//  ThemeChangerView.swift
+//  ThemePickerView.swift
 //  Tradezy
 //
 
 import SwiftUI
 
-struct ThemeChangerView: View {
+struct ThemePickerView: View {
 
     // MARK: - Property Wrappers
 
@@ -62,5 +62,5 @@ struct ThemeChangerView: View {
 // MARK: - Preview
 
 #Preview {
-    ThemeChangerView()
+    ThemePickerView()
 }

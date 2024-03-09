@@ -11,6 +11,8 @@ struct HomeView: View {
 
     @ObservedObject var navigationManager: NavigationManager
 
+    @State private var showThemePicker: Bool = false 
+
     // MARK: - Body
 
     var body: some View {
@@ -18,6 +20,20 @@ struct HomeView: View {
             navigationManager.presentNext(.newScreen)
         } label: {
             Text("Push")
+        }
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    showThemePicker.toggle()
+                } label: {
+                    Image(systemName: "moonphase.waxing.gibbous.inverse")
+                }
+            }
+        }
+        .sheet(isPresented: $showThemePicker) {
+            ThemePickerView()
+                .presentationDetents([.height(400)])
+                .presentationBackground(.clear)
         }
     }
 }
