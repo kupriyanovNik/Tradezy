@@ -17,6 +17,7 @@
 		B73D03FF2B9CC69C0015977B /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03FE2B9CC69C0015977B /* MainNavigationView.swift */; };
 		B73D04022B9CC6B50015977B /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D04012B9CC6B50015977B /* NavigationManager.swift */; };
 		B73D04052B9CC6DC0015977B /* NavigationDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D04042B9CC6DC0015977B /* NavigationDestinationType.swift */; };
+		B73D04072B9CCA270015977B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D04062B9CCA270015977B /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B73D03FE2B9CC69C0015977B /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
 		B73D04012B9CC6B50015977B /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
 		B73D04042B9CC6DC0015977B /* NavigationDestinationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationType.swift; sourceTree = "<group>"; };
+		B73D04062B9CCA270015977B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				B73D03FB2B9CC6420015977B /* Color+Ext.swift */,
+				B73D04062B9CCA270015977B /* View+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				B73D03FA2B9CC6240015977B /* NetworkManager.swift in Sources */,
 				B73D03FF2B9CC69C0015977B /* MainNavigationView.swift in Sources */,
+				B73D04072B9CCA270015977B /* View+Ext.swift in Sources */,
 				B73D04022B9CC6B50015977B /* NavigationManager.swift in Sources */,
 				B73D03F72B9CC6000015977B /* Palette.swift in Sources */,
 				B73D03DB2B9CC1080015977B /* TradezyApp.swift in Sources */,
