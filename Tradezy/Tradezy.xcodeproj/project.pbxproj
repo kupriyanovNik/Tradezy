@@ -53,6 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				B73D03DA2B9CC1080015977B /* TradezyApp.swift */,
+				B73D03EA2B9CC4010015977B /* Resource */,
+				B73D03E92B9CC3FC0015977B /* Service */,
+				B73D03EB2B9CC41D0015977B /* Extension */,
+				B73D03EC2B9CC4210015977B /* Presentation */,
 				B73D03DC2B9CC1080015977B /* ContentView.swift */,
 				B73D03DE2B9CC1090015977B /* Assets.xcassets */,
 				B73D03E02B9CC1090015977B /* Tradezy.entitlements */,
@@ -67,6 +71,34 @@
 				B73D03E22B9CC1090015977B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B73D03E92B9CC3FC0015977B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B73D03EA2B9CC4010015977B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B73D03EB2B9CC41D0015977B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B73D03EC2B9CC4210015977B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
