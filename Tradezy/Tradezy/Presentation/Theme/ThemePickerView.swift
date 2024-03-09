@@ -9,9 +9,11 @@ struct ThemePickerView: View {
 
     // MARK: - Property Wrappers
 
+    @Binding var selectedTheme: ThemeDefinition
+
     @Namespace var animation
 
-    @Binding var selectedTheme: ThemeDefinition
+    @State private var circleOffset: CGSize = .zero
 
     // MARK: - Internal Properties
 
@@ -24,6 +26,14 @@ struct ThemePickerView: View {
             Circle()
                 .fill(selectedTheme.color(colorScheme).gradient)
                 .frame(width: 150, height: 150)
+                .mask {
+                    Rectangle()
+                        .overlay {
+                            Circle()
+                                .offset(circleOffset)
+                                .blendMode(.destinationOut)
+                        }
+                }
 
             Text("Выберите тему")
                 .font(.title2)
@@ -61,6 +71,18 @@ struct ThemePickerView: View {
         .clipShape(.rect(cornerRadius: 30))
         .padding(.horizontal)
         .environment(\.colorScheme, colorScheme)
+        .onAppear(perform: animateCircle)
+        .onChange(of: colorScheme, animateCircle)
+    }
+
+    // MARK: - Private Functions
+
+    private func animateCircle() {
+        let isDark = colorScheme == .dark
+
+        withAnimation(.bouncy) {
+            circleOffset = .init(width: isDark ? 30: 150, height: isDark ? -25 : -150)
+        }
     }
 }
 
