@@ -11,6 +11,9 @@
 		B73D03DF2B9CC1090015977B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73D03DE2B9CC1090015977B /* Assets.xcassets */; };
 		B73D03E32B9CC1090015977B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73D03E22B9CC1090015977B /* Preview Assets.xcassets */; };
 		B73D03F32B9CC5330015977B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03F22B9CC5330015977B /* HomeView.swift */; };
+		B73D03F72B9CC6000015977B /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03F62B9CC6000015977B /* Palette.swift */; };
+		B73D03FA2B9CC6240015977B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03F92B9CC6230015977B /* NetworkManager.swift */; };
+		B73D03FC2B9CC6420015977B /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03FB2B9CC6420015977B /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		B73D03E02B9CC1090015977B /* Tradezy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tradezy.entitlements; sourceTree = "<group>"; };
 		B73D03E22B9CC1090015977B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B73D03F22B9CC5330015977B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B73D03F62B9CC6000015977B /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		B73D03F92B9CC6230015977B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B73D03FB2B9CC6420015977B /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 		B73D03E92B9CC3FC0015977B /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				B73D03F82B9CC61B0015977B /* Network */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -83,6 +90,7 @@
 				B73D03E12B9CC1090015977B /* Preview Content */,
 				B73D03DE2B9CC1090015977B /* Assets.xcassets */,
 				B73D03E02B9CC1090015977B /* Tradezy.entitlements */,
+				B73D03F62B9CC6000015977B /* Palette.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 		B73D03EB2B9CC41D0015977B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B73D03FB2B9CC6420015977B /* Color+Ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -116,6 +125,14 @@
 				B73D03F22B9CC5330015977B /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		B73D03F82B9CC61B0015977B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B73D03F92B9CC6230015977B /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,8 +205,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73D03FA2B9CC6240015977B /* NetworkManager.swift in Sources */,
+				B73D03F72B9CC6000015977B /* Palette.swift in Sources */,
 				B73D03DB2B9CC1080015977B /* TradezyApp.swift in Sources */,
 				B73D03F32B9CC5330015977B /* HomeView.swift in Sources */,
+				B73D03FC2B9CC6420015977B /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
