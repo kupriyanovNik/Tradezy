@@ -6,5 +6,5 @@
 import Foundation
 
 enum NavigationDestinationType: Hashable {
-    
+    case newScreen
 }

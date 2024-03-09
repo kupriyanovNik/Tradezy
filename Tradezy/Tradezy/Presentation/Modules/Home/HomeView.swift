@@ -14,11 +14,15 @@ struct HomeView: View {
     // MARK: - Body
 
     var body: some View {
-        Text("Hello, World!")
+        Button {
+            navigationManager.navPath.append(.newScreen)
+        } label: {
+            Text("Push")
+        }
     }
 }
 
-// MARK: - Preview 
+// MARK: - Preview
 
 #Preview {
     HomeView(

@@ -18,6 +18,15 @@ struct MainNavigationView: View {
             HomeView(
                 navigationManager: navigationManager
             )
+            .navigationDestination(for: NavigationDestinationType.self, destination: getDestinationView)
+        }
+    }
+
+    // MARK: - Private Functions
+
+    private func getDestinationView(destination: NavigationDestinationType) -> some View {
+        switch destination {
+        default: Text("another view")
         }
     }
 }
