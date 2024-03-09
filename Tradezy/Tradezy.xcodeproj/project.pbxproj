@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		B73D03DB2B9CC1080015977B /* TradezyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03DA2B9CC1080015977B /* TradezyApp.swift */; };
-		B73D03DD2B9CC1080015977B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03DC2B9CC1080015977B /* ContentView.swift */; };
 		B73D03DF2B9CC1090015977B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73D03DE2B9CC1090015977B /* Assets.xcassets */; };
 		B73D03E32B9CC1090015977B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B73D03E22B9CC1090015977B /* Preview Assets.xcassets */; };
+		B73D03F32B9CC5330015977B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03F22B9CC5330015977B /* HomeView.swift */; };
+		B73D03F72B9CC6000015977B /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03F62B9CC6000015977B /* Palette.swift */; };
+		B73D03FA2B9CC6240015977B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03F92B9CC6230015977B /* NetworkManager.swift */; };
+		B73D03FC2B9CC6420015977B /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03FB2B9CC6420015977B /* Color+Ext.swift */; };
+		B73D03FF2B9CC69C0015977B /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D03FE2B9CC69C0015977B /* MainNavigationView.swift */; };
+		B73D04022B9CC6B50015977B /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D04012B9CC6B50015977B /* NavigationManager.swift */; };
+		B73D04052B9CC6DC0015977B /* NavigationDestinationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D04042B9CC6DC0015977B /* NavigationDestinationType.swift */; };
+		B73D04072B9CCA270015977B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D04062B9CCA270015977B /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B73D03D72B9CC1080015977B /* Tradezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73D03DA2B9CC1080015977B /* TradezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradezyApp.swift; sourceTree = "<group>"; };
-		B73D03DC2B9CC1080015977B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B73D03DE2B9CC1090015977B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B73D03E02B9CC1090015977B /* Tradezy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tradezy.entitlements; sourceTree = "<group>"; };
 		B73D03E22B9CC1090015977B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B73D03F22B9CC5330015977B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B73D03F62B9CC6000015977B /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		B73D03F92B9CC6230015977B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B73D03FB2B9CC6420015977B /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		B73D03FE2B9CC69C0015977B /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		B73D04012B9CC6B50015977B /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		B73D04042B9CC6DC0015977B /* NavigationDestinationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationType.swift; sourceTree = "<group>"; };
+		B73D04062B9CCA270015977B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				B73D03DA2B9CC1080015977B /* TradezyApp.swift */,
-				B73D03DC2B9CC1080015977B /* ContentView.swift */,
-				B73D03DE2B9CC1090015977B /* Assets.xcassets */,
-				B73D03E02B9CC1090015977B /* Tradezy.entitlements */,
-				B73D03E12B9CC1090015977B /* Preview Content */,
+				B73D03EA2B9CC4010015977B /* Resource */,
+				B73D03E92B9CC3FC0015977B /* Service */,
+				B73D03EB2B9CC41D0015977B /* Extension */,
+				B73D03EC2B9CC4210015977B /* Presentation */,
 			);
 			path = Tradezy;
 			sourceTree = "<group>";
@@ -66,7 +80,95 @@
 			children = (
 				B73D03E22B9CC1090015977B /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			name = "Preview Content";
+			path = "../Preview Content";
+			sourceTree = "<group>";
+		};
+		B73D03E92B9CC3FC0015977B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B73D04002B9CC6AB0015977B /* Navigation */,
+				B73D03F82B9CC61B0015977B /* Network */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B73D03EA2B9CC4010015977B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B73D03E12B9CC1090015977B /* Preview Content */,
+				B73D03DE2B9CC1090015977B /* Assets.xcassets */,
+				B73D03E02B9CC1090015977B /* Tradezy.entitlements */,
+				B73D03F62B9CC6000015977B /* Palette.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B73D03EB2B9CC41D0015977B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B73D03FB2B9CC6420015977B /* Color+Ext.swift */,
+				B73D04062B9CCA270015977B /* View+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B73D03EC2B9CC4210015977B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B73D03F02B9CC5270015977B /* Modules */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B73D03F02B9CC5270015977B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B73D03FD2B9CC6900015977B /* Navigation */,
+				B73D03F12B9CC52D0015977B /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B73D03F12B9CC52D0015977B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B73D03F22B9CC5330015977B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B73D03F82B9CC61B0015977B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B73D03F92B9CC6230015977B /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B73D03FD2B9CC6900015977B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B73D03FE2B9CC69C0015977B /* MainNavigationView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B73D04002B9CC6AB0015977B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				B73D04012B9CC6B50015977B /* NavigationManager.swift */,
+				B73D04032B9CC6D00015977B /* Base */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B73D04032B9CC6D00015977B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B73D04042B9CC6DC0015977B /* NavigationDestinationType.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B73D03DD2B9CC1080015977B /* ContentView.swift in Sources */,
+				B73D03FA2B9CC6240015977B /* NetworkManager.swift in Sources */,
+				B73D03FF2B9CC69C0015977B /* MainNavigationView.swift in Sources */,
+				B73D04072B9CCA270015977B /* View+Ext.swift in Sources */,
+				B73D04022B9CC6B50015977B /* NavigationManager.swift in Sources */,
+				B73D03F72B9CC6000015977B /* Palette.swift in Sources */,
 				B73D03DB2B9CC1080015977B /* TradezyApp.swift in Sources */,
+				B73D03F32B9CC5330015977B /* HomeView.swift in Sources */,
+				B73D04052B9CC6DC0015977B /* NavigationDestinationType.swift in Sources */,
+				B73D03FC2B9CC6420015977B /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,10 +375,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Tradezy/Tradezy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Tradezy/Resource/Tradezy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Tradezy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Tradezy/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HDF545ZQ6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -304,10 +413,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Tradezy/Tradezy.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Tradezy/Resource/Tradezy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Tradezy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Tradezy/Resource/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HDF545ZQ6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
