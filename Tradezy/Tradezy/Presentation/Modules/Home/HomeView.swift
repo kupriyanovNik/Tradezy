@@ -4,6 +4,7 @@
 //
 
 import SwiftUI
+import TradezyDesignSystem
 
 struct HomeView: View {
 
@@ -14,7 +15,7 @@ struct HomeView: View {
     @ObservedObject var navigationManager: NavigationManager
 
     @State private var showThemePicker: Bool = false 
-    @AppStorage("selectedTheme") var selectedTheme: ThemePickerModel = .system
+    @AppStorage("selectedTheme") var selectedTheme: TDThemePickerModel = .system
 
     // MARK: - Body
 
@@ -35,7 +36,7 @@ struct HomeView: View {
         }
         .preferredColorScheme(selectedTheme.colorScheme)
         .sheet(isPresented: $showThemePicker) {
-            ThemePickerView(
+            TDThemePickerView(
                 selectedTheme: $selectedTheme,
                 colorScheme: colorScheme
             )

@@ -1,0 +1,15 @@
+{
+  "originHash" : "7fecf6dea508255a0c495497102927cf216c3db8e7e2a14a135f09a2e357fca7",
+  "pins" : [
+    {
+      "identity" : "tradezydesignsystem",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kupriyanovNik/TradezyDesignSystem.git",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "58ce717ab066b39d0f2f5e57c1c440a807631750"
+      }
+    }
+  ],
+  "version" : 3
+}
